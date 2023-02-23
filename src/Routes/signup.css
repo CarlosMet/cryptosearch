@@ -1,0 +1,46 @@
+.signup{
+    transition: all ease 1s;
+    position: relative;
+    padding-left: 43%;
+}
+.active{    
+    margin-left: 8rem;
+    width: 30px;
+    height: 30px;
+    border: 2px solid gray;
+    position: absolute;
+    text-align: end;
+    border-radius: 50%;
+    border-left-color: transparent ;
+    animation: spin 1.5s ease;
+}
+
+.success {
+    position: absolute; 
+    margin-left: 8.2rem;   
+    width: 23px;
+    height: 23px;
+    color: white;    
+    animation: check 1.5s ease;    
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(-360deg);
+    }
+    100% {
+        opacity: 0;
+    }
+   
+}
+@keyframes check {    
+  0%{
+    opacity: 0;
+  }
+  65% {
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}

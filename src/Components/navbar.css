@@ -1,0 +1,8 @@
+
+.hid{
+  display: none;
+}
+
+.products:hover .hid{
+  display: block;
+}
