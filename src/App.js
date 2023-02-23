@@ -52,7 +52,7 @@ function App() {
       <AuthContextProvider>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home error = {err} getQuantity ={getQuantity} coins ={coins} coinsP ={coinsP} />} />
+        <Route path='/cryptosearch' element={<Home error = {err} getQuantity ={getQuantity} coins ={coins} coinsP ={coinsP} />} />
         <Route path='/signin' element={<Signin />} />
         <Route path='/signup' element={<Signup />} />
         <Route path='/account' element={<Account />} />   
