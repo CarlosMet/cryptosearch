@@ -18,7 +18,7 @@ const Navbar = () => {
     }
   return (    
     <div className='px-3 lg:px-12 flex items-center justify-between h-20 font-bold mb-8'>
-        <Link to= '/'>
+        <Link to= '/cryptosearch'>
             <div className='flex items-center'>
                 <img className='App-logo w-20 lg:w-24' src={logo} alt=""/>
                 <h1 className='text-2xl md:text-2xl lg:text-3xl font-extrabold z-15'>CryptoSearch</h1>
