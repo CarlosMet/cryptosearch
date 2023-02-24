@@ -25,7 +25,7 @@ const Navbar = () => {
             </div>
         </Link>
         <div className='hidden md:flex gap-2 lg:gap-5'>
-            <Link to={'/'}>
+            <Link to={'/cryptosearch'}>
                 Cryptocurrency
             </Link>            
 
@@ -74,7 +74,7 @@ const Navbar = () => {
             <div>
                 <ul className='mt-20 flex flex-col gap-3 w-[90%] m-auto'>
                     <li onClick={closeMenu}>
-                        <Link to={'/'}>
+                        <Link to={'/cryptosearch'}>
                             Cryptocurrency
                         </Link>
                         <hr></hr>
